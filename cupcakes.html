@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toronto Cupcake | Cupcakes</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+        
+        <a class="navbar-brand mx-auto" href="index.html"><img src="images/transparent-TO-logo.png" height="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" id="navlink1" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink2" href="cupcakes.html">Cupcakes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink3" href="occasions.html">Occasions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink4" href="corpevents.html">Corporate Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink5" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink5" href="#">Cart</a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>-->
+          </ul>
+          <form class="form-inline" action="/action_page.php">
+            <input class="form-control me-2 p-auto" type="text" placeholder="Search">
+          </form>
+        </div></nav>
+
+        <div id="banner" class="d-none d-md-block mx-auto">
+           
+          <img class="mt-3" src="images/cupcakepagebanner.png" width="100%">
+
+      </div>
+        
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mt-4">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cupcakes</li>
+          </ol>
+        </nav>
+          
+          <p class="mt-5 text-dark">$3.75 each | $20.00 half dozen | $38 dozen</p>
+        
+        </div>
+    <div id="always-available mx-auto">
+
+        <h1 class="text-dark text-center">Always Available</h1>
+        <h3 class="text-dark text-center mt-3">One Dozen One Click</h3>
+      
+        <img id="dozenbox" class="mt-5 img-fluid d-none d-md-block mx-auto" src="images/dozencupcakesbox.jpg" width="500"><br/>
+      
+        <button id="addtocart" class="btn fw-bold rounded-pill mt-4"><a href="#">Add to Cart</a></button>
+        <p id="dozprice" class="text-center mt-3">$38.00/doz</p>
+        <p class="text-center">In a panic or can't decide? Need a dozen awesome cupcakes but don't want to pick them out individually?<br/>
+            Read no more just hit the add to cart button and we will pick out
+            12 delicious treats from our "always available" cupcakes.<br/><span class="fw-bolder">Or have fun and select from the individual flavours below:</span>
+        </p>
+    
+        <div id="available-cupcakes1" class="row mx-auto mt-5 m-4">
+
+          <div class="col-lg-2 col-sm-2">
+            <img class="figure-img img-fluid ms-3" src="images/chocopeanutbutter.jpg" alt="choco peanut butter cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Chocolate Peanut Butter<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-2">
+            <img class="figure-img img-fluid" src="images/chocohazelnut.jpg" alt="choco hazelnut cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Chocolate Hazelnut<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-2">
+            <img class="figure-img img-fluid" src="images/coconut.jpg" alt="vanilla coconut cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Vanilla Coconut<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption></div>
+
+            <div class="col-lg-2 col-sm-2">
+              <img class="figure-img img-fluid" src="images/chocolatecoconut.jpg" alt="chocolate coconut cupcake">
+              <figcaption class="figure-caption text-center mx-auto">Chocolate Coconut<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty">
+                 <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption></div>
+
+              <div class="col-lg-2 col-sm-2">
+                <img class="figure-img img-fluid" src="images/chocolatecupcake.jpg" alt="chocolate cupcake">
+                <figcaption class="figure-caption text-center mx-auto">Chocolate Cupcake<br/>
+                  <input type="text" class="form-control text-center" placeholder="Qty">
+                   <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+                </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-2">
+            <img class="figure-img img-fluid" src="images/chocolatevanilla.jpg" alt="chocolate vanilla cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Chocolate Vanilla<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+      </div>
+        </div>
+
+        <div id="available-cupcakes2" class="row mx-auto mt-5 m-4">
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/red_velvet_cupcake_large.jpg" alt="red velvet cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Red Velvet<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/vanillacupcake.jpg" alt="vanilla cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Vanilla Cupcake<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/cupcake-vanilla-chocolate.jpg" alt="vanilla chocolate cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Vanilla Chocolate<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption></div>
+
+            <div class="col-lg-2 col-sm-6">
+              <img class="figure-img img-fluid" src="images/vanillachocolateganache.png" alt="vanilla chocolate ganache cupcake">
+              <figcaption class="figure-caption text-center mx-auto">Vanilla Chocolate Ganache<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty">
+                 <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption></div>
+
+              <div class="col-lg-2 col-sm-6">
+                <img class="figure-img img-fluid" src="images/chocolatecaramel.jpg" alt="chocolate caramel cupcake">
+                <figcaption class="figure-caption text-center mx-auto">Chocolate Caramel<br/>
+                  <input type="text" class="form-control text-center" placeholder="Qty">
+                   <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+                </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/vanillacaramel.jpg" alt="vanilla caramel cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Vanilla Caramel<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+      </div>
+        </div>
+
+        <div id="available-cupcakes3" class="row mx-auto mt-5 m-4">
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/chocolatecaramel2.jpg" alt="chocolate caramel II cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Chocolate Caramel II<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/vanillalemon.jpg" alt="vanilla lemon cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Vanilla Lemon<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/chocolatetoffee.jpg" alt="chocolate toffee cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Chocolate Toffee<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption></div>
+
+            <div class="col-lg-2 col-sm-6">
+              <img class="figure-img img-fluid" src="images/chocolateoreo.jpg" alt="chocolate oreo cupcake">
+              <figcaption class="figure-caption text-center mx-auto">Chocolate Oreo<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty">
+                 <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption></div>
+
+              <div class="col-lg-2 col-sm-6">
+                <img class="figure-img img-fluid" src="images/hummingbird.jpg" alt="hummingbird cupcake">
+                <figcaption class="figure-caption text-center mx-auto">Hummingbird<br/>
+                  <input type="text" class="form-control text-center" placeholder="Qty">
+                   <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+                </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/chocolatevanillaganache.jpg" alt="chocolate vanilla ganache cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Chocolate Vanilla Ganache<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+      </div>
+        </div>
+
+        <div id="available-cupcakes4" class="row mx-auto mt-5 m-4">
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/redvelvetfudge.jpg" alt="red velvet fudge cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Red Velvet Fudge<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/chocolateganache.jpg" alt="chocolate ganache cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Chocolate Ganache<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/hotfudgesundae.png" alt="hot fudge sundae cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Hot Fudge Sundae<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption></div>
+
+            <div class="col-lg-2 col-sm-6">
+              <img class="figure-img img-fluid" src="images/chocolatemocha.png" alt="chocolate mocha cupcake">
+              <figcaption class="figure-caption text-center mx-auto">Chocolate Mocha<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty">
+                 <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption></div>
+
+              <div class="col-lg-2 col-sm-6">
+                <img class="figure-img img-fluid" src="images/redvelvetraspberry.png" alt="red velvet raspberry cupcake">
+                <figcaption class="figure-caption text-center mx-auto">Red Velvet Rasbperry<br/>
+                  <input type="text" class="form-control text-center" placeholder="Qty">
+                   <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+                </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/vanillastrawberry.jpg" alt="vanilla strawberry cupcake">
+            <figcaption class="figure-caption text-center mx-auto">Vanilla Strawberry<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty">
+               <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+      </div>
+        </div>
+        <div id="holidays" class="mt-5">
+          <h2 class="text-dark text-center fw-bold">Holidays</h2>
+          <h3 class="mt-4 text-center">Winter Holidays Special</h3>
+          <h4 class="mt-4 text-center">Christmas Dozen</h4>
+        <!--<img class="img-fluid mt-4" src="images/christmasbanner.jpg" alt="christmas special cupcakes" width="100%">-->
+        <img id="christmascupcakes" class="img-fluid mt-4 d-none d-md-block mx-auto" src="images/christmascupcakes.jpg" alt="dozen christmas cupcakes" width="500"><br/>
+        <button class="btn fw-bold rounded-pill mt-2 d-none d-md-block"><a href="#">Add to Cart</a></button>
+        <p id="christmasprice" class="text-center text-dark mt-3">$48.00/doz</p>
+        <p class="ms-4 text-center">Happy Holidays!! Toronto Cupcake is bringing joy and good cheer with our special Christmas dozen cupcakes.<br/>
+          Gingerbread people, Candy Canes, Christmas Trees, Ornaments all on delicious cupcakes.<br/><br/>
+          We wish you all a safe, happy, joyous holiday season.
+        </p>
+        </div>
+
+        <h3 class="mt-5 text-center fw-bold text-dark">Other Holidays</h3>
+        <div id="other-holidays" class="ms-5">
+          <div class="row mt-5 mx-auto ms-4">
+
+          <div class="col-lg-2 col-sm-6">
+
+            <img class="figure-img img-fluid" src="images/valentinesday2.jpg" alt="valentine's day cupcakes" width="300">
+            <figcaption class="figure-caption text-center">Valentine's Day<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+           </figcaption>
+
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+
+            <img class="figure-img img-fluid" src="images/easter3.jpg" alt="easter holiday cupcakes" width="300">
+            <figcaption class="figure-caption text-center">Easter<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption></div>
+
+            <div class="col-lg-2 col-sm-6">
+
+              <img class="figure-img img-fluid" src="images/mothersday3.jpg" alt="mothers day holiday cupcakes" width="300">
+              <figcaption class="figure-caption text-center">Mothers Day<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+                <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption></div>
+
+              <div class="col-lg-2 col-sm-6">
+
+                <img class="figure-img img-fluid" src="images/canadacupcakes.jpg" alt="canada holiday cupcakes" width="300">
+                <figcaption class="figure-caption text-center">Oh Canada!<br/>
+                  <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+                  <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+                </figcaption></div>
+
+                <div class="col-lg-2 col-sm-6">
+
+                  <img class="figure-img img-fluid" src="images/stpatricks.jpg" alt="st patrick's day holiday cupcakes" width="300">
+                  <figcaption class="figure-caption text-center">St Patrick's Day<br/>
+                    <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+                    <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+                  </figcaption></div>
+
+          </div>
+        </div>
+
+        <h3 class="mt-5 text-center fw-bold text-dark">Special Events and Festivals</h3>
+        <div id="special-events" class="ms-5">
+          
+          <p class="mt-3 text-center">If you are looking for information regarding weddings, engagements, or other special occasions visit our <a href="#">occasions</a> page.</p>
+          <div class="row mt-5 mx-auto">
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/jazz.jpg" alt="jazz festival cupcakes" width="200">
+            <figcaption class="figure-caption text-center">All That Jazz<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <img class="figure-img img-fluid" src="images/lightscameraaction.jpg" alt="lights camera action festival cupcakes" width="200">
+            <figcaption class="figure-caption text-center">Lights, Camera, Action!<br/>
+              <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+              <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+            </figcaption>
+          </div>
+
+          </div>
+        </div>
+
+        <h3 class="mt-5 text-center fw-bold text-dark">Custom</h3>
+        <div id="custom-cupcakes" class="ms-5">
+          
+          <p class="mt-3 text-center">If you are looking for information regarding customised logo cupcakes, Corporate Events Planning, or Marketing Events/Fulfillment, <br/> please visit our <a href="#">Corporate Events</a> page.</p>
+
+          <div class="row mt-5 mx-auto ms-5">
+
+            <div class="col-lg-2 col-sm-6">
+              <img class="figure-img img-fluid" src="images/custom.jpg" alt="customized cupcakes" width="200">
+              <figcaption class="figure-caption text-center">Custom Cupcake<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+                <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption>
+            </div>
+  
+            <div class="col-lg-2 col-sm-6">
+              <img class="figure-img img-fluid" src="images/kidscupcake.png" alt="just for kids cupcakes" width="200">
+              <figcaption class="figure-caption text-center">Just for Kids Cupcake<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+                <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption>
+            </div>
+
+            <div class="col-lg-2 col-sm-6">
+              <img class="figure-img img-fluid" src="images/birthdaycupcake.png" alt="happy birthday cupcakes" width="200">
+              <figcaption class="figure-caption text-center">Birthday Cupcake<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+                <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption>
+            </div>
+
+            <div class="col-lg-2 col-sm-6">
+              <img class="figure-img img-fluid" src="images/customimage.jpg" alt="custom image cupcakes with personalized photo" width="200">
+              <figcaption class="figure-caption text-center">Custom Image<br/>
+                <input type="text" class="form-control text-center" placeholder="Qty"><br/>
+                <button class="btn fw-bold rounded-pill mt-2"><a href="#">Add to Cart</a></button>
+              </figcaption>
+            </div>
+  
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <footer class="mt-5 mx-auto">
+        <div class="row pt-4">
+         <div class="col-4">
+         <h5 class="text-center fw-bold">Pages</h5>
+         </div>
+         <div class="col-4">
+           <h5 class="text-center fw-bold">Quick Links</h5>
+           </div>
+           <div class="col-4">
+             <h5 class="text-center fw-bold">Social Media</h5>
+             </div>
+        </div>
+      
+        <div class="row pt-4">
+         <div class="col-4">
+         <p class="text-center"><a href="index.html">Home</a></p>
+         </div>
+         <div class="col-4">
+           <p class="text-center"><a href="https://torontocupcake.com/givingback.html">Givng Back</a></p>
+           </div>
+           <div class="col-4">
+             <p class="text-center"><a href="https://www.facebook.com/Toronto-Cupcakes-246530892074458/">Facebook</a></p>
+             </div>
+        </div>
+      
+        <div class="row pt-4">
+         <div class="col-4">
+         <p class="text-center"><a href="about.html">About</a></p>
+         </div>
+         <div class="col-4">
+           <p class="text-center"><a href="https://torontocupcake.com/faqs.html">FAQs</a></p>
+           </div>
+           <div class="col-4">
+             <p class="text-center"><a href="https://twitter.com/torontocupcake?lang=en">Twitter</a></p>
+             </div>
+        </div>
+      
+        <div class="row pt-4">
+         <div class="col-4">
+         <p class="text-center"><a href="cupcakes.html">Cupcakes</a></p>
+         </div>
+         <div class="col-4">
+           <p class="text-center"><a href="https://torontocupcake.com/resources.html">Resources</a></p>
+           </div>
+           <div class="col-4">
+             <p class="text-center"><a href="https://www.instagram.com/torontocupcake/?hl=en">Instagram</a></p>
+             </div>
+        </div>
+      
+        <div class="row pt-4">
+         <div class="col-4">
+         <p class="text-center"><a href="corpevents.html">Corp Events</a></p>
+         </div>
+         <div class="col-4">
+           <p class="text-center"><a href="https://torontocupcake.com/contact.html">Contact Us</a></p>
+           </div>
+        </div>
+      
+        <div class="row pt-4">
+         <div class="col-4">
+         <p class="text-center"><a href="occasions.html">Occasions</a></p>
+         </div>
+         <div class="col-4">
+           <p class="text-center"><a href="https://torontocupcake.com/EmploymentOpportunities.html">Employement</a></p>
+           </div>
+        </div>
+       
+        <p id ="rights" class="text-center mt-4 fw-bold p-2">Copyright © 2021 All Rights Reserved</p>
+        
+      
+         <!--
+                <div id="socialmedia" class="row mx-auto">
+               <div class="col-lg-6">
+                <h5 class="fw-bold">Follow Us on Social Media</h5>
+               </div>
+               <div class="col-lg-6 float-start">
+               
+                 <a href="https://www.facebook.com/Toronto-Cupcakes-246530892074458/"><img class="img-fluid" src="images/facebook.png" width="30"></a>
+                 <a href="https://twitter.com/torontocupcake?lang=en"><img class="img-fluid" src="images/ig.png" width="30"></a>
+                 <a href="https://www.instagram.com/torontocupcake/?hl=en"><img class="img-fluid" src="images/twitter.png" width="30"></a>
+      </div>
+                </div>-->
+       </footer>
+</div>
+  
+    
+</body>
+</html>

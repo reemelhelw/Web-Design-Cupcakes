@@ -1,0 +1,460 @@
+
+/*
+#navbar
+{
+    background-color: #f7dae4;
+    
+}*/
+.breadcrumb
+{
+    margin-top: 100px;
+}
+#navlink1:link
+{
+    color:	#000000e5;
+}
+
+#navlink1:visited
+{
+    color:	#000000e5;
+}
+
+#navlink1:hover
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#navlink2:link
+{
+    color:	#000000e5;
+}
+
+#navlink2:visited
+{
+    color:	#000000e5;
+}
+
+#navlink2:hover
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#navlink3:link
+{
+    color:	#000000e5;
+}
+
+#navlink3:visited
+{
+    color:	#000000e5;
+}
+
+#navlink3:hover
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#navlink4:link
+{
+    color:	#000000e5;
+}
+
+#navlink4:visited
+{
+    color:	#000000e5;
+}
+
+#navlink4:hover
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#navlink5:link
+{
+    color:	#000000e5;
+}
+
+#navlink5:visited
+{
+    color:	#000000e5;
+}
+
+#navlink5:hover
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+#header h1
+{
+    font-size: 35px;
+    margin-top:-325px;
+    margin-left: 600px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+
+#christmas h2
+{
+    font-family: "Quicksand", sans-serif;
+}
+
+#christmas p
+{
+    font-size:20px;
+}
+
+#order-button, #learn-button, #about-us-btn
+{
+    background-color:#f6a6c1;
+    font-family: "Lato", sans-serif;
+}
+
+#order-button a:link,#learn-button a:link,#about-us-btn a:link
+{
+    text-decoration: none;
+    color:black;
+}
+
+#order-button a:visited, #learn-button a:visited,#about-us-btn a:visited
+{
+    text-decoration: none;
+    color:black;
+}
+
+#order-button a:hover, #learn-button a:hover,#about-us-btn a:hover
+{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+
+#christmas
+{
+    margin-top:100px;
+}
+
+#our-cupcakes h2
+{
+    font-family: "Quicksand", sans-serif;
+}
+
+.see-more
+{
+    font-size:13px;
+}
+
+
+#occasions
+{
+    margin-top:70px;
+}
+
+#occasions p
+{
+    font-size:20px;
+}
+
+#our-cupcakes h2 a:link
+{
+    color:#f6a6c1;
+
+}
+
+#our-cupcakes h2 a:visited
+{
+    color:#f6a6c1;
+    text-decoration: none;
+
+}
+
+#our-cupcakes h2 a:hover
+{
+    color:#b1788b;
+    cursor:pointer;
+
+}
+
+#christmas-whole
+{
+    margin-top:130px;
+}
+
+#bannerparagraph
+{
+    font-family: 'Lato', sans-serif;
+    margin-left:605px;
+    font-size:18px;
+}
+
+#about-us-btn
+{
+ margin-left:605px;
+}
+
+#cupcake-delivery h3
+{
+    margin-left: 700px;
+    font-family: "Quicksand", sans-serif;
+    margin-top:-200px;
+}
+
+#cupcake-delivery p
+{
+    margin-left: 700px;
+}
+
+figcaption
+{
+    margin-left:15px;
+}
+
+#addtocart
+{
+    background-color:#fbd2e0;
+    font-family: "Lato", sans-serif;
+    margin-left: 580px;
+}
+#addtocart a:link, #addtocart a:visited, #addtocart a:hover
+{
+    text-decoration: none;
+    color:black;
+}
+
+
+#dozenbox
+{
+    margin-left:370px;
+}
+
+#always-available h1,h3
+{
+    font-family: "Quicksand", sans-serif;
+
+}
+
+
+#available-cupcakes1 button
+{
+    background-color:#fbd2e0;
+    font-family: "Lato", sans-serif;
+}
+
+
+#available-cupcakes1 button a:link, #available-cupcakes1 button a:visited, #available-cupcakes1 button a:hover
+{
+    text-decoration: none;
+    color:black;
+}
+
+#available-cupcakes2 button
+{
+    background-color:#fbd2e0;
+    font-family: "Lato", sans-serif;
+}
+
+#available-cupcakes2 button a:link, #available-cupcakes2 button a:visited, #available-cupcakes2 button a:hover
+{
+    text-decoration: none;
+    color:black;
+}
+
+#available-cupcakes3 button
+{
+    background-color:#fbd2e0;
+    font-family: "Lato", sans-serif;
+}
+
+#available-cupcakes3 button a:link, #available-cupcakes3 button a:visited, #available-cupcakes3 button a:hover
+{
+    text-decoration: none;
+    color:black;
+}
+
+#available-cupcakes4 button
+{
+    background-color:#fbd2e0;
+    font-family: "Lato", sans-serif;
+}
+
+#available-cupcakes4 button a:link, #available-cupcakes4 button a:visited, #available-cupcakes4 button a:hover
+{
+    text-decoration: none;
+    color:black;
+}
+
+#available-cupcakes1 img, #available-cupcakes2 img, #available-cupcakes3 img, #available-cupcakes4 img
+{
+    width:155px;
+}
+
+#holidays h2,h3,h4
+{
+    font-family: "Quicksand", sans-serif;
+}
+
+#christmascupcakes
+{
+    margin-left:370px;
+}
+
+#holidays button
+{
+    background-color:#fbd2e0;
+    font-family: "Lato", sans-serif;
+    margin-left: 570px;
+}
+
+#holidays button a:link, #holidays button a:visited, #other-holidays button a:link, #other-holidays a:visited, #special-events button a:link, #special-events button a:visited,
+#custom-cupcakes button a:link, #custom-cupcakes button a:visited
+{
+    text-decoration: none;
+    color:black;
+}
+
+#holidays button a:hover, #other-holidays a:hover, #special-events button a:hover, #custom-cupcakes button a:hover
+{
+    opacity: 0.6;
+}
+
+#christmasprice
+{
+    margin-right:22px;
+}
+
+#other-holidays button, #special-events button, #custom-cupcakes button
+{
+    background-color:#fbd2e0;
+    font-family: "Lato", sans-serif;
+}
+
+#Weddings-Engagements h1, #birthdays h1, #book-now h2
+{
+    font-family: "Quicksand", sans-serif;
+}
+
+
+#corporatecupcakes
+{
+    width:400px;
+    margin:auto;
+}
+
+#clients-collage
+{
+    margin:auto;
+    width:500px;
+}
+
+#corpevents h1
+{
+    font-family: "Quicksand", sans-serif;
+}
+
+#clients h4
+{
+    color:#e9658d;
+    font-weight: 500;
+}
+
+.breadcrumb a:link, .breadcrumb a:visited
+{
+    color:#f6a6c1;
+}
+
+.breadcrumb a:hover
+{
+    text-decoration: none;
+}
+
+p
+{
+    font-family: "Lato", sans-serif;
+}
+
+#newsletter
+{
+    margin-top: 10%;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Quicksand", sans-serif;
+}
+
+#newsletter input
+{
+    width:70%;
+    margin: 0 auto;
+}
+
+#socialmedia
+{
+    background-color:#f6a6c1;
+}
+
+footer
+{
+    background-color:#faecec;
+}
+
+footer a
+{
+    font-size:14px;
+}
+#rights
+{
+    background-color:#f3c2c2;
+}
+
+#newsletter button
+{
+    background-color:#f6a6c1;
+}
+
+#contact button
+{
+    background-color:#f6a6c1;
+    border: none;
+}
+
+#about
+{
+    background-color:#f2f2f2;
+    padding:10px;
+}
+
+
+
+#christmas-whole
+{
+    background-color:#f2f2f2;
+    padding:10px;
+}
+
+.dozparagraph
+{
+    margin-left:220px;
+}
+
+#special-events a:link, #special-events a:link, #custom-cupcakes a:link, #custom-cupcakes a:visited
+{
+    color:#f6a6c1;
+}
+
+#special-events a:hover, #custom-cupcakes a:hover
+{
+    color:#f6a6c1;
+    text-decoration: none;
+}
+
+footer a:link, footer a:visited
+{
+    color:black;
+    text-decoration: none;
+}
+footer a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
